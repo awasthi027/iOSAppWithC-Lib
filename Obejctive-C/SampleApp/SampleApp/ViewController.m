@@ -7,6 +7,7 @@
 
 #import "ViewController.h"
 #import "HelloWorldIOS.h"
+#import "OperationsIOS.h"
 
 @interface ViewController ()
 @property (weak, nonatomic) IBOutlet UILabel *helloWorldLabel;
@@ -18,7 +19,19 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     HelloWorldIOS *helloWorld = [HelloWorldIOS new];
-    self.helloWorldLabel.text = [helloWorld getHelloWorld];
+    NSMutableString *text = [[NSMutableString alloc] initWithString: [helloWorld getHelloWorld]];
+    
+    OperationsIOS *operation = [OperationsIOS new];
+    NSInteger item = (long)[operation sum:10 second:12];
+    [text appendString:[NSString stringWithFormat:@"\nAdd Two Number: ==%ld",item]];
+    item = (long)[operation mult:10 second:12];
+    [text appendString:[NSString stringWithFormat:@"\nMulti Two Number: ==%ld",item]];
+    item = (long)[operation div:10 second:12];
+    [text appendString:[NSString stringWithFormat:@"\nDivide Two Number: ==%ld",item]];
+    item = (long)[operation sub:10 second:12];
+   [text appendString:[NSString stringWithFormat:@"\nSuntraction Two Number: ==%ld",item]];
+    
+    self.helloWorldLabel.text = text;
 }
 
 

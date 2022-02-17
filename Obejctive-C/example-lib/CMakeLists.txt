@@ -1,10 +1,17 @@
+# Step1
 cmake_minimum_required (VERSION 3.2)
+
+# Step2
+
 project (example-ios C CXX)
+
+
 enable_testing()
 
 MESSAGE( STATUS "CMAKE_CXX_FLAGS: " ${CMAKE_CXX_FLAGS} )
 
 # Add some sanitary checks that the toolchain is actually working!
+
 include(CheckCXXSymbolExists)
 check_cxx_symbol_exists(kqueue sys/event.h HAVE_KQUEUE)
 if(NOT HAVE_KQUEUE)
@@ -28,6 +35,7 @@ else()
 endif()
 
 # Hook up XCTest for the supported plaforms (all but WatchOS)
+
 if(NOT PLATFORM MATCHES ".*WATCHOS.*")
   # Use the standard find_package, broken between 3.14.0 and 3.14.4 at least for XCtest...
   find_package(XCTest)

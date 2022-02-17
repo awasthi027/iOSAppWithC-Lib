@@ -30,7 +30,7 @@ cmake --build . --config Release
 
 Take .a file from build foler and import in Sample application.
 
-# How import C++ .a file on object project
+# How import C++ .a file in IOS  project
 
 Step 1. Create on folder in the Objectice-C Project file Example lib-files 
 

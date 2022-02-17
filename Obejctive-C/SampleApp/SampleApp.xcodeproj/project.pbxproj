@@ -15,6 +15,7 @@
 		C868D71827BD168A00C0C49E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C868D71627BD168A00C0C49E /* LaunchScreen.storyboard */; };
 		C868D71B27BD168A00C0C49E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C868D71A27BD168A00C0C49E /* main.m */; };
 		C868D72727BD1A5800C0C49E /* libexample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C868D72627BD1A5700C0C49E /* libexample.a */; };
+		C868D73227BE8FED00C0C49E /* libmath.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C868D73127BE8FED00C0C49E /* libmath.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,9 @@
 		C868D72327BD1A5700C0C49E /* HelloWorld.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = HelloWorld.hpp; sourceTree = "<group>"; };
 		C868D72427BD1A5700C0C49E /* HelloWorldIOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloWorldIOS.h; sourceTree = "<group>"; };
 		C868D72627BD1A5700C0C49E /* libexample.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libexample.a; sourceTree = "<group>"; };
+		C868D72F27BE8EB600C0C49E /* Operations.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Operations.hpp; sourceTree = "<group>"; };
+		C868D73027BE8EB600C0C49E /* OperationsIOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OperationsIOS.h; sourceTree = "<group>"; };
+		C868D73127BE8FED00C0C49E /* libmath.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libmath.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +45,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C868D72727BD1A5800C0C49E /* libexample.a in Frameworks */,
+				C868D73227BE8FED00C0C49E /* libmath.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,6 +100,8 @@
 		C868D72227BD1A5700C0C49E /* include */ = {
 			isa = PBXGroup;
 			children = (
+				C868D72F27BE8EB600C0C49E /* Operations.hpp */,
+				C868D73027BE8EB600C0C49E /* OperationsIOS.h */,
 				C868D72327BD1A5700C0C49E /* HelloWorld.hpp */,
 				C868D72427BD1A5700C0C49E /* HelloWorldIOS.h */,
 			);
@@ -104,6 +111,7 @@
 		C868D72527BD1A5700C0C49E /* lib */ = {
 			isa = PBXGroup;
 			children = (
+				C868D73127BE8FED00C0C49E /* libmath.a */,
 				C868D72627BD1A5700C0C49E /* libexample.a */,
 			);
 			path = lib;
