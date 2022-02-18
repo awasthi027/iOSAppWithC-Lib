@@ -38,7 +38,7 @@ Step 2. Create two sub folders include and lib
 
 Step 3. Copy paste .a file in lib folder 
 
-Step 4. Copy paste .hpp c++ header files and .h header objective header files for exmaple in sample project.
+Step 4. Copy paste .h header objective header files for exmaple in sample project.
 
 Step 5. Add lib-files folder in project reference 
 

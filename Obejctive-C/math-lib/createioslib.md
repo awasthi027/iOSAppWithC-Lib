@@ -40,6 +40,26 @@ else()
 endif()
 
 
+# Command for creating iOS Project and from iOS Project we can get .a file
+
+Command: 
+
+Creating build folder so all file related to xcode configuration will be in build folder
+
+At CMakeLists.txt path 
+
+mkdir build 
+cd build 
+
+cmake .. -G Xcode -DCMAKE_TOOLCHAIN_FILE=../../ios.toolchain.cmake -DPLATFORM=OS64
+
+cmake .. Meand compile available file in back path
+-G Menas create code project 
+-DCMAKE_TOOLCHAIN_FILE file have all configuratio related to file 
+-DPLATFORM=OS64 create xcode project with device architecture arm64 
+
+
+ 
 # How to access in sample code 
 
 # How import C++ .a file in IOS  project
@@ -50,7 +70,7 @@ Step 2. Create two sub folders include and lib
 
 Step 3. Copy paste .a file in lib folder 
 
-Step 4. Copy paste .hpp c++ header files and .h header objective header files for exmaple in sample project.
+Step 4. Copy paste .h header objective header files for exmaple in sample project.
 
 Step 5. Add lib-files folder in project reference 
 
