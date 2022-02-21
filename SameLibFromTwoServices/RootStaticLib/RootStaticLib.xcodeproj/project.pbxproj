@@ -1,0 +1,402 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C8295E5127C3B8A8003AE998 /* RootStaticLib.m in Sources */ = {isa = PBXBuildFile; fileRef = C8295E5027C3B8A8003AE998 /* RootStaticLib.m */; };
+		C8295E5227C3B8A8003AE998 /* RootStaticLib.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C8295E4F27C3B8A8003AE998 /* RootStaticLib.h */; };
+		C8295EAB27C3C58C003AE998 /* libServiceGen1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C8295E8727C3B956003AE998 /* libServiceGen1.a */; };
+		C8295EAC27C3C58C003AE998 /* libServiceGen2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C8295EA227C3C4A6003AE998 /* libServiceGen2.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C8295E8627C3B956003AE998 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8295E8227C3B956003AE998 /* ServiceGen1.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C8295E6127C3B8D2003AE998;
+			remoteInfo = ServiceGen1;
+		};
+		C8295EA127C3C4A6003AE998 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8295E9D27C3C4A6003AE998 /* ServiceGen2.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C8295E7627C3B940003AE998;
+			remoteInfo = ServiceGen2;
+		};
+		C8295EAD27C3C593003AE998 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8295E9D27C3C4A6003AE998 /* ServiceGen2.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = C8295E7527C3B940003AE998;
+			remoteInfo = ServiceGen2;
+		};
+		C8295EAF27C3C593003AE998 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8295E8227C3B956003AE998 /* ServiceGen1.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = C8295E6027C3B8D2003AE998;
+			remoteInfo = ServiceGen1;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C8295E4A27C3B8A8003AE998 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				C8295E5227C3B8A8003AE998 /* RootStaticLib.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C8295E4C27C3B8A8003AE998 /* libRootStaticLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRootStaticLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8295E4F27C3B8A8003AE998 /* RootStaticLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootStaticLib.h; sourceTree = "<group>"; };
+		C8295E5027C3B8A8003AE998 /* RootStaticLib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootStaticLib.m; sourceTree = "<group>"; };
+		C8295E8227C3B956003AE998 /* ServiceGen1.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ServiceGen1.xcodeproj; path = Services/ServiceGen1/ServiceGen1.xcodeproj; sourceTree = "<group>"; };
+		C8295E9D27C3C4A6003AE998 /* ServiceGen2.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ServiceGen2.xcodeproj; path = Services/ServiceGen2/ServiceGen2.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C8295E4927C3B8A8003AE998 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8295EAB27C3C58C003AE998 /* libServiceGen1.a in Frameworks */,
+				C8295EAC27C3C58C003AE998 /* libServiceGen2.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C8295E4327C3B8A8003AE998 = {
+			isa = PBXGroup;
+			children = (
+				C8295E4E27C3B8A8003AE998 /* RootStaticLib */,
+				C8295E4D27C3B8A8003AE998 /* Products */,
+				C8295EAA27C3C58C003AE998 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C8295E4D27C3B8A8003AE998 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C8295E4C27C3B8A8003AE998 /* libRootStaticLib.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C8295E4E27C3B8A8003AE998 /* RootStaticLib */ = {
+			isa = PBXGroup;
+			children = (
+				C8295E9D27C3C4A6003AE998 /* ServiceGen2.xcodeproj */,
+				C8295E8227C3B956003AE998 /* ServiceGen1.xcodeproj */,
+				C8295E4F27C3B8A8003AE998 /* RootStaticLib.h */,
+				C8295E5027C3B8A8003AE998 /* RootStaticLib.m */,
+			);
+			path = RootStaticLib;
+			sourceTree = "<group>";
+		};
+		C8295E8327C3B956003AE998 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C8295E8727C3B956003AE998 /* libServiceGen1.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C8295E9E27C3C4A6003AE998 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C8295EA227C3C4A6003AE998 /* libServiceGen2.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C8295EAA27C3C58C003AE998 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C8295E4B27C3B8A8003AE998 /* RootStaticLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8295E5527C3B8A8003AE998 /* Build configuration list for PBXNativeTarget "RootStaticLib" */;
+			buildPhases = (
+				C8295E4827C3B8A8003AE998 /* Sources */,
+				C8295E4927C3B8A8003AE998 /* Frameworks */,
+				C8295E4A27C3B8A8003AE998 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C8295EAE27C3C593003AE998 /* PBXTargetDependency */,
+				C8295EB027C3C593003AE998 /* PBXTargetDependency */,
+			);
+			name = RootStaticLib;
+			productName = RootStaticLib;
+			productReference = C8295E4C27C3B8A8003AE998 /* libRootStaticLib.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C8295E4427C3B8A8003AE998 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					C8295E4B27C3B8A8003AE998 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = C8295E4727C3B8A8003AE998 /* Build configuration list for PBXProject "RootStaticLib" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C8295E4327C3B8A8003AE998;
+			productRefGroup = C8295E4D27C3B8A8003AE998 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = C8295E8327C3B956003AE998 /* Products */;
+					ProjectRef = C8295E8227C3B956003AE998 /* ServiceGen1.xcodeproj */;
+				},
+				{
+					ProductGroup = C8295E9E27C3C4A6003AE998 /* Products */;
+					ProjectRef = C8295E9D27C3C4A6003AE998 /* ServiceGen2.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				C8295E4B27C3B8A8003AE998 /* RootStaticLib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		C8295E8727C3B956003AE998 /* libServiceGen1.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libServiceGen1.a;
+			remoteRef = C8295E8627C3B956003AE998 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C8295EA227C3C4A6003AE998 /* libServiceGen2.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libServiceGen2.a;
+			remoteRef = C8295EA127C3C4A6003AE998 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C8295E4827C3B8A8003AE998 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8295E5127C3B8A8003AE998 /* RootStaticLib.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C8295EAE27C3C593003AE998 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ServiceGen2;
+			targetProxy = C8295EAD27C3C593003AE998 /* PBXContainerItemProxy */;
+		};
+		C8295EB027C3C593003AE998 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ServiceGen1;
+			targetProxy = C8295EAF27C3C593003AE998 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C8295E5327C3B8A8003AE998 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/SampleApp/lib-files/include";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LIBRARY_SEARCH_PATHS = "";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C8295E5427C3B8A8003AE998 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/SampleApp/lib-files/include";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LIBRARY_SEARCH_PATHS = "";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C8295E5627C3B8A8003AE998 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/ServiceGen2/Services";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C8295E5727C3B8A8003AE998 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/ServiceGen2/Services";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C8295E4727C3B8A8003AE998 /* Build configuration list for PBXProject "RootStaticLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8295E5327C3B8A8003AE998 /* Debug */,
+				C8295E5427C3B8A8003AE998 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8295E5527C3B8A8003AE998 /* Build configuration list for PBXNativeTarget "RootStaticLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8295E5627C3B8A8003AE998 /* Debug */,
+				C8295E5727C3B8A8003AE998 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C8295E4427C3B8A8003AE998 /* Project object */;
+}

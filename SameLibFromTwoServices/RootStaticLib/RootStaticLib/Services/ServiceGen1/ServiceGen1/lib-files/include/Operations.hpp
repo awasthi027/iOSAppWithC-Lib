@@ -1,5 +1,6 @@
 #ifndef CMAKEHELLO_OPERATIONS_HPP
 #define CMAKEHELLO_OPERATIONS_HPP
+
 namespace Math {
 
     class Operations {
