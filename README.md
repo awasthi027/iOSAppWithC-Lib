@@ -87,3 +87,14 @@ MAC_CATALYST - to build iOS for Mac (Catalyst, x86_64)
 # More infomation 
 
 https://github.com/leetal/ios-cmake
+
+
+# Created multiple POC to proof c++ library concept
+
+** Access Same C++ library from multiple services 
+
+** Access Same class from deferent name space 
+
+** Create sample with exaplaination how to create libary with xcode
+
+** How to create c++ libary for deferent architecture
