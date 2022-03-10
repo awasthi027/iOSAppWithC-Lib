@@ -26,3 +26,4 @@ int MathFirst::Operations::sub(const int &a, const int &b){
 int MathSecond::Operations::mod(const int &a, const int &b){
     return a % b;
 }
+

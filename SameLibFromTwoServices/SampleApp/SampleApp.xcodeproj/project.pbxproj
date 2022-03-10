@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C8295EB227C3CB75003AE998 /* libRootStaticLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C8295EB127C3CB75003AE998 /* libRootStaticLib.a */; };
+		C812EA6127D8BFB300D493AE /* libRootStaticLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C812EA6027D8BFB300D493AE /* libRootStaticLib.a */; };
 		C868D70A27BD168800C0C49E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C868D70927BD168800C0C49E /* AppDelegate.m */; };
 		C868D70D27BD168800C0C49E /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C868D70C27BD168800C0C49E /* SceneDelegate.m */; };
 		C868D71027BD168800C0C49E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C868D70F27BD168800C0C49E /* ViewController.m */; };
@@ -18,7 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C8295EB127C3CB75003AE998 /* libRootStaticLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libRootStaticLib.a; sourceTree = "<group>"; };
+		C812EA6027D8BFB300D493AE /* libRootStaticLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libRootStaticLib.a; sourceTree = "<group>"; };
 		C8295EB327C3CB9B003AE998 /* RootStaticLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootStaticLib.h; sourceTree = "<group>"; };
 		C868D70527BD168800C0C49E /* SampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C868D70827BD168800C0C49E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -39,7 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C8295EB227C3CB75003AE998 /* libRootStaticLib.a in Frameworks */,
+				C812EA6127D8BFB300D493AE /* libRootStaticLib.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,7 +102,7 @@
 		C868D72527BD1A5700C0C49E /* lib */ = {
 			isa = PBXGroup;
 			children = (
-				C8295EB127C3CB75003AE998 /* libRootStaticLib.a */,
+				C812EA6027D8BFB300D493AE /* libRootStaticLib.a */,
 			);
 			path = lib;
 			sourceTree = "<group>";

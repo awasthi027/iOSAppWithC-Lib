@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C812EA6327D8C00A00D493AE /* libmath.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C812EA6227D8C00900D493AE /* libmath.a */; };
 		C8295E7B27C3B940003AE998 /* ServiceGen2.mm in Sources */ = {isa = PBXBuildFile; fileRef = C8295E7A27C3B940003AE998 /* ServiceGen2.mm */; };
 		C8295E7C27C3B940003AE998 /* ServiceGen2.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C8295E7927C3B940003AE998 /* ServiceGen2.h */; };
-		C8295EA927C3C525003AE998 /* libmath.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C8295EA827C3C525003AE998 /* libmath.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,11 +26,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C812EA6227D8C00900D493AE /* libmath.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libmath.a; sourceTree = "<group>"; };
 		C8295E7627C3B940003AE998 /* libServiceGen2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libServiceGen2.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8295E7927C3B940003AE998 /* ServiceGen2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ServiceGen2.h; sourceTree = "<group>"; };
 		C8295E7A27C3B940003AE998 /* ServiceGen2.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ServiceGen2.mm; sourceTree = "<group>"; };
 		C8295EA627C3C525003AE998 /* Operations.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Operations.hpp; sourceTree = "<group>"; };
-		C8295EA827C3C525003AE998 /* libmath.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libmath.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,7 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C8295EA927C3C525003AE998 /* libmath.a in Frameworks */,
+				C812EA6327D8C00A00D493AE /* libmath.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,7 +92,7 @@
 		C8295EA727C3C525003AE998 /* lib */ = {
 			isa = PBXGroup;
 			children = (
-				C8295EA827C3C525003AE998 /* libmath.a */,
+				C812EA6227D8C00900D493AE /* libmath.a */,
 			);
 			path = lib;
 			sourceTree = "<group>";

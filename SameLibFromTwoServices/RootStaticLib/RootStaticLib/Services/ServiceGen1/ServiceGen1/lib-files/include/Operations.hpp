@@ -1,9 +1,9 @@
 #ifndef CMAKEHELLO_OPERATIONS_HPP
 #define CMAKEHELLO_OPERATIONS_HPP
 
-namespace Math {
+namespace math {
 
-    class Operations {
+    class operations {
     public:
         int sum(const int &a, const int &b);
         int mult(const int &a, const int &b);

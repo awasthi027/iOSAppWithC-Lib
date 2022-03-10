@@ -11,7 +11,7 @@
 
 @implementation ServiceGen1
 
- Math::Operations op;
+ math::operations op;
 
 - (NSString *)messageFromLib {
    
