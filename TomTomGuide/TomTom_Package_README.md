@@ -34,7 +34,7 @@ cmake --build build_arm64
  cmake --install build_arm64
 
 
-# Find toolchain from tomtom package. Its not part of tomtom. Its extenal file and keeping tom tom folder. Needed for arm compilers
+#Find toolchain from tomtom package. Its not part of tomtom. Its extenal file and keeping tom tom folder. Needed for arm compilers
 
 
 
